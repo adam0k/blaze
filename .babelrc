@@ -3,12 +3,12 @@
     [
       "@babel/preset-env"
     ],
-  [
-    "minify",
-    {
-      "builtIns": false
-    }
-  ],
+    [
+      "minify",
+      {
+        "builtIns": false
+      }
+    ],
   ],
   // "plugins": ["@babel/plugin-transform-spread"],
   "comments": false

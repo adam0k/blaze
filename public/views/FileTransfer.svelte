@@ -189,9 +189,7 @@
         stream();
       });
     });
-
   }
-
   /**
    * DOM is reset to prepare for the next file transfer
    */

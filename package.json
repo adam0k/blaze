@@ -9,7 +9,8 @@
     "watch": "gulp dev",
     "dev": "concurrently \"npm:watch\" \"npm:server\"",
     "build": "gulp",
-    "start": "npm run server"
+    "start": "npm run server",
+    "test": "jest --watch test"
   },
   "author": "Akash Hamirwasia",
   "license": "MIT",
@@ -26,9 +27,13 @@
     "node": "8.x"
   },
   "devDependencies": {
-    "@babel/core": "^7.2.2",
-    "@babel/preset-env": "^7.2.3",
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.5",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/svelte": "^1.11.0",
     "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^24.9.0",
+    "babel-preset-env": "^1.7.0",
     "babel-preset-minify": "^0.5.0",
     "concurrently": "^4.1.1",
     "gulp": "^4.0.2",
@@ -37,11 +42,14 @@
     "gulp-htmlmin": "^5.0.1",
     "gulp-replace": "^1.0.0",
     "gulp-sass": "^4.0.2",
+    "jest": "^24.9.0",
+    "jest-transform-svelte": "^2.1.0",
     "rollup": "^1.18.0",
     "rollup-plugin-commonjs": "^10.0.1",
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-svelte": "^5.1.0",
     "svelte": "^3.6.10",
+    "svelte-jester": "^1.0.3",
     "workbox-build": "^4.3.1"
   }
 }
